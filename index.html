@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <base href="/">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Home</title>
@@ -24,7 +25,7 @@
         <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
         <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
         <link rel="stylesheet" href="styles/main.min.css">
-        <base href="/consulting/">
+
     </head>
     <body>
         <header class="header">
@@ -32,7 +33,7 @@
         <div class="header__inner">
             <div class="logo">
                 <a class="logo__link">
-                    <img class="logo__img" src="img/logo.webp" alt="logo">
+                    <img class="logo__img" src="../img/logo.jpg" alt="logo">
                 </a>
             </div>
             <div class="header__menu menu">
@@ -42,7 +43,7 @@
                 <nav class="menu__body">
                     <ul class="menu__list">
                         <li class="menu__list-item">
-                            <a href="index.html" class="menu__list-link">Home</a>
+                            <a href="../index.html" class="menu__list-link">Home</a>
                         </li>
                         <li class="menu__list-item menu__list-item--dropdown">
                             <a href="#" class="menu__list-link">
@@ -115,19 +116,24 @@
     <div class="container">
         <div class="promo__inner">
             <h1 class="promo__inner-title">
-                Drive Your Business Forward with Expert Consulting
+              Accelerate your business growth with expert consulting.
             </h1>
             <div class="promo__inner-text">
-                Our expert-driven strategies empower businesses to accelerate growth, optimize operations, and overcome challenges, ensuring sustainable success in an ever-evolving market.
+              Our strategic solutions help optimize operations, tackle challenges, and drive sustainable success in a dynamic market.
             </div>
             <div class="promo__inner-buttons">
                 <button type="button" class="promo__inner-button">Discover Our Services</button>
-                <button type="button" class="promo__inner-button promo__inner-button--with-bg">Book a Free Consultation</button>
+                <button type="button" class="promo__inner-button promo__inner-button--bg">Book a Free Consultation</button>
             </div>
         </div>
     </div>
+
+      
     <div class="promo__box-image">
-        <img class="promo__box-img" src="img/promo-img.webp" alt="city">
+      <a href="https://images.wallpaperscraft.com/image/single/building_windows_facade_1331446_1920x1200.jpg">
+        <img class="promo__box-img" src="img/promo-img.jpg" alt="city">
+      </a>
+
     </div>
 </section>
         <section class="about">
@@ -136,12 +142,12 @@
             <div class="about__inner-content">
                 <div class="about__inner-info">
                     <h3 class="about__inner-subtitle subtitle">About us</h3>
-                    <h2 class="about__inner-title title">Trusted Business Consultants with Proven Results</h2>
-                    <p class="about__inner-text">With over 20 years of expertise, we empower businesses to achieve sustainable growth, optimize operations, and drive profitability through strategic consulting tailored to their unique needs. Our dedicated team ensures measurable success at every step of your journey.</p>
-                    <button class="about__inner-btn">Learn More About Us</button>
+                    <h2 class="about__inner-title title">Experienced Business Consultants Delivering Results</h2>
+                    <p class="about__inner-text">With over two decades of expertise, we help businesses drive sustainable growth, enhance operations, and maximize profitability through tailored strategic consulting. Our committed team ensures measurable success at every stage of your journey.</p>
+                    <a class="button button--bg about__inner-btn" href="#">Learn More About Us</a>
                 </div>
                 <div class="about__inner-image">
-                    <img class="about__inner-img" src="img/about.webp" alt="people speaking" >
+                    <img class="about__inner-img" src="img/about.jpg" alt="people speaking" >
                 </div>
             </div>
             <div class="about__item-wrapper">
@@ -206,30 +212,30 @@
         <div class="industries__inner">
             <h3 class="industries__inner-subtitle subtitle">Testimonials</h3>
             <h2 class="industries__inner-title title">Industries We Serve</h2>
-            <div class="industries__inner-descr">Explore how we help businesses across various industries achieve growth, optimize operations, and navigate challenges with our expert consulting services.</div>
+            <div class="industries__inner-descr">Discover how we support businesses across diverse industries in driving growth, streamlining operations, and overcoming challenges with our expert consulting services.</div>
             <div class="industries__box">
                 <div class="industries__box-item">
                     <img class="industries__box-img" src="img/industries/1.svg" alt="processor">
                     <h3 class="industries__box-title">Technology</h3>
-                    <div class="industries__box-text">Driving innovation and digital transformation to help tech companies scale and thrive in a competitive landscape.</div>
+                    <div class="industries__box-text">Fueling innovation and digital transformation to empower tech companies to scale and succeed in a competitive market.</div>
                     <a class="industries__box-link" href="#">Learn More About Technology Consulting</a>
                 </div>
                 <div class="industries__box-item">
                     <img class="industries__box-img" src="img/industries/2.svg" alt="bank">
                     <h3 class="industries__box-title">Finance</h3>
-                    <div class="industries__box-text">Enhancing profitability and managing financial risks with expert advisory tailored for the financial sector.</div>
+                    <div class="industries__box-text">Maximizing profitability and mitigating financial risks with specialized advisory services for the financial sector.</div>
                     <a class="industries__box-link" href="#">Discover Our Finance Expertise</a>
                 </div>
                 <div class="industries__box-item">
                     <img class="industries__box-img" src="img/industries/3.svg" alt="cart">
                     <h3 class="industries__box-title">Retail</h3>
-                    <div class="industries__box-text">Empowering retail businesses to enhance customer experiences and streamline supply chain operations.</div>
+                    <div class="industries__box-text">Helping retail businesses elevate customer experiences and optimize supply chain operations.</div>
                     <a class="industries__box-link" href="#">See Our Retail Consulting Services</a>
                 </div>
                 <div class="industries__box-item">
                     <img class="industries__box-img" src="img/industries/4.svg" alt="heart">
                     <h3 class="industries__box-title">Healthcare</h3>
-                    <div class="industries__box-text">Improving healthcare efficiency and patient outcomes through process optimization and regulatory expertise.</div>
+                    <div class="industries__box-text">Enhancing healthcare efficiency and patient outcomes with process optimization and regulatory expertise.</div>
                     <a class="industries__box-link" href="#">Explore Healthcare Solutions</a>
                 </div>
 
@@ -247,14 +253,14 @@
             <div class="article-insights__box">
                 <div class="article-insights__box-content">
                     <h3 class="article-insights__box-title">Expert Insights</h3>
-                    <div class="article-insights__box-text">Stay informed with the latest trends, strategies, and expert perspectives in consulting and business growth.</div>
+                    <div class="article-insights__box-text">Keep up with the latest trends, strategies, and expert insights on consulting and business growth.</div>
                 </div>
-                <button class="article-insights__button" type="button">View All</button>
+                <a class="article-insights__button button" href="#">View All</a>
             </div>
             <div class="article__inner-box">
                 <div class="article__inner-item">
                     <div class="article__inner-image">
-                        <img class="article__inner-img" src="img/article/1.webp" alt="speacking">
+                        <img class="article__inner-img" src="img/article/3.jpg" alt="speacking">
                     </div>
                     <div class="article__inner-content">
                         <h3 class="article__inner-title">Navigating Financial Challenges in Uncertain Times</h3>
@@ -264,7 +270,7 @@
                 </div>
                 <div class="article__inner-item">
                     <div class="article__inner-image">
-                        <img class="article__inner-img" src="img/article/2.webp" alt="house">
+                        <img class="article__inner-img" src="img/article/2.jpg" alt="house">
                     </div>
                     <div class="article__inner-content">
                         <h3 class="article__inner-title">Transforming Your Business with Data-Driven Decisions</h3>
@@ -274,7 +280,7 @@
                 </div>
                 <div class="article__inner-item">
                     <div class="article__inner-image">
-                        <img class="article__inner-img" src="img/article/3.webp" alt="speacking">
+                        <img class="article__inner-img" src="img/article/3.jpg" alt="speacking">
                     </div>
                     <div class="article__inner-content">
                         <h3 class="article__inner-title">Navigating Financial Challenges in Uncertain Times</h3>
@@ -291,14 +297,13 @@
         <div class="footer-inner">
             <div class="footer-inner__header">
                 <div class="footer-inner__header-background">
-                    <img class="footer-inner__header-img" src="img/footer-bg.webp" alt="people speaking">
+                    <img class="footer-inner__header-img" src="../img/footer-bg.jpg" alt="people speaking">
                 </div>
-                <h2 class="footer-inner__header-title">Ready to Transform Your Business?</h2>
-                <div class="footer-inner__header-text">Partner with us for expert guidance and strategies that drive
-                    growth and success.</div>
+                <h2 class="footer-inner__header-title">Ready to Elevate Your Business?</h2>
+                <div class="footer-inner__header-text">Work with us for expert insights and strategies that fuel growth and success.</div>
                 <div class="footer-inner__header-box">
-                    <button class="footer-inner__header-btn" type="button">Contact Us</button>
-                    <button class="footer-inner__header-btn" type="button">Get Your Free Consultation</button>
+                    <a class="footer-inner__header-btn button" href="/pages/contact.html">Contact Us</a>
+                    <a class="footer-inner__header-btn button" href="#">Get Your Free Consultation</a>
                 </div>
             </div>
             <div class="footer-inner__body">
@@ -384,7 +389,7 @@
                                             stroke="#496179" stroke-width="1.5" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg>
-                                    <a href="tel:15551234567" class="footer-inner__body-link">+1 (555) 123-4567</a>
+                                    <a href="tel:13213212312" class="footer-inner__body-link">+1 (321) 321-2312</a>
                                 </li>
                                 <li class="footer-inner__body-item">
                                     <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
@@ -394,8 +399,8 @@
                                             stroke="#496179" stroke-width="1.5" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg>
-                                    <a href="email:info@apexadvisory.com"
-                                        class="footer-inner__body-link">info@apexadvisory.com</a>
+                                    <a href="email:contact@strategicconsulting.com"
+                                        class="footer-inner__body-link">contact@strategicconsulting.com</a>
                                 </li>
                                 <li class="footer-inner__body-item">
                                     <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
@@ -409,9 +414,10 @@
                                             stroke="#496179" stroke-width="1.5" stroke-linecap="round"
                                             stroke-linejoin="round" />
                                     </svg>
-                                    <address class="footer-inner__body-link">123 Business Ave, Suite 500, <br>
-                                        New York, NY 10001, <br>
-                                        USA
+                                    <address class="footer-inner__body-link">
+                                      456 Market Street, Suite 800, <br>  
+                                      San Francisco, CA 94105,  <br>
+                                      USA
                                     </address>
                                 </li>
                                 <li class="footer-inner__body-item">
@@ -490,7 +496,7 @@
                 </form>
                 <hr class="footer-inner__footer-line">
                 <div class="footer-inner__footer-box">
-                    <div class="footer-inner__footer-copyright">&copy; 2024 Consulting Firm. All rights reserved.</div>
+                    <div class="footer-inner__footer-copyright">&copy; 2025 Consulting Firm. All rights reserved.</div>
                     <div class="footer-inner__footer-terms">
                         <ul class="footer-inner__footer-list">
                             <li class="footer-inner__footer-item">
